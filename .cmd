@@ -8,10 +8,10 @@
 	DOSKEY ls=dir
 	
 	:: When using vagrant with bundler, I hate all the typing
-	DOSKEY bv=bundle exec vagrant
+	DOSKEY bv=bundle exec vagrant $*
 	
 :: Customize our prompt (give a linux feel)
 	:: Start with the time, dropping miliseconds ($T$H$H$H)
-	PROMPT=[%username%@%computername%]$$
+	PROMPT=[%username%@%computername%]$$$S
 
 @ECHO ON
