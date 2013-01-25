@@ -1,4 +1,4 @@
-:: This file is tended to be added to HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
+:: This file is intended to be added to HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
 :: So that a standardized command prompt configuration can happen
 	@ECHO OFF
 	echo %date% %time%
